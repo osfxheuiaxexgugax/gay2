@@ -1,0 +1,22 @@
+ain-content
+  %h1
+    Hello!
+  %h2
+    I am gay zen
+  %p
+    me super gay!
+  %p
+    %small.helper 
+      *press Button in left top corner of to make me turn straight!
+    
+    %p
+.main
+  - (1..10).each do |i|
+    .row
+      - (1..12).each do |x|
+        %div.item{:class=>"row#{i}-col#{x}"}
+%button.js-popup
+  Toggle Popup
+.credits
+  %a{:href => "https://codepen.io/marko-zub/", :target=>'_blank'}
+    My other codepens    
